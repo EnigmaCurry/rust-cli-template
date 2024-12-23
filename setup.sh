@@ -8,7 +8,7 @@ TEMPLATE_DIR="$ROOT_DIR/template"
 cd ${ROOT_DIR}
 
 # Set variables to be replaced in the template files
-export APP=$(git remote get-url origin | sed -E 's/^(https:\/\/|git@github\.com:).+\/([^\/]+)\.git$/\2/; t; s/.*/app/')
+export APP=$(git remote get-url origin | sed -E 's/^(https:\/\/|git@github\.com:).+\/([^\/]+)(\.git)?$/\2/; t; s/.*/app/')
 export GIT_USERNAME=$(git remote get-url origin | sed -E 's/^(https:\/\/|git@github\.com:)([^\/]+).*$/\2/; t; s/.*/username/')
 export YEAR=$(date +%Y)
 check_var APP GIT_USERNAME YEAR
