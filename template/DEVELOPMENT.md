@@ -87,6 +87,12 @@ just clippy --fix
 
 ## Release (Github actions)
 
+### Install cargo dependencies
+
+```
+cargo install cargo-audit --locked
+```
+
 ### Bump release version and push new branch
 
 The `bump-version` target will automatically update the version number
