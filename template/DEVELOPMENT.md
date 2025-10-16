@@ -90,9 +90,7 @@ just clippy --fix
 ### Install cargo dependencies
 
 ```
-cargo install cargo-audit --locked
-cargo install cargo-edit --locked
-cargo install git-cliff --locked
+just deps
 ```
 
 ### Bump release version and push new branch
