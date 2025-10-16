@@ -2,7 +2,7 @@
 name = "${APP}"
 description = "${APP} is a CLI tool"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
 repository = "https://github.com/${GIT_USERNAME}/${APP}"
 homepage = "https://github.com/${GIT_USERNAME}/${APP}"
 license = "MIT"
