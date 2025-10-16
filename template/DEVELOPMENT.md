@@ -91,6 +91,7 @@ just clippy --fix
 
 ```
 cargo install cargo-audit --locked
+cargo install git-cliff --locked
 ```
 
 ### Bump release version and push new branch
