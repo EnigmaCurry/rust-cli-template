@@ -23,8 +23,3 @@ log = "0.4.22"
 
 [dev-dependencies]
 shell-words = "1.1.0"
-
-[build-dependencies]
-clap = "4.5.17"
-clap_complete = "4.5.29"
-dirs = "5.0.1"
