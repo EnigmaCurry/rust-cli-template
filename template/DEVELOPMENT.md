@@ -91,6 +91,7 @@ just clippy --fix
 
 ```
 cargo install cargo-audit --locked
+cargo install cargo-edit --locked
 cargo install git-cliff --locked
 ```
 
