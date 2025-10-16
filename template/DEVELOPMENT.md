@@ -50,12 +50,12 @@ just build --release
 ```
 ## Add this to ~/.bashrc or equivalent:
 alias ${APP}='just -f ~/git/vendor/${GIT_USERNAME}/${APP}/Justfile run'
-alias h=${APP}
+source <(${APP} completions bash 2> /dev/null)
 ```
 
-Now you can run `${APP}`, or simply `h`, from any directory, with
+Now you can run `${APP}` from any directory, with
 any arguments, and it will automatically rebuild from source, and then
-run it with those args.
+run it with those args. This will have full tab-completion in your shell.
 
 ## Testing
 
